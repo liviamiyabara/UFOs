@@ -17,17 +17,17 @@ The table shows the date, city, state, country, UFO shape, duration and comments
 
 As shown above, the HTML page has a navigation bar on top, followed by a header with an image and title and an article right below it. The interactive part of the website is the filters on the left and the table at the bottom.
 
-The user can search for specific data of the UFOs seen by applying the filters by date, city, state, country and/or UFO shape; there is a sample of the type of data to be typed in for each one of the filter boxes. The person can use only one filter or a combination of the filters to select the data. In the example below, the user filters the search only by the triangle shape: 
+The user can search for specific data of the UFOs seen by applying the filters by date, city, state, country and/or UFO shape; there is a sample of the type of data to be typed in for each one of the filter boxes. The person can use only one filter or a combination of the filters to select the data. In the example below, the user filters the search only by the ‘triangle’ shape: 
 
   ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/screen_shot_triangle.png)
 
 
-But now, let us assume that the user would like to see the data of UFOs that have a triangle shape and were spotted in California. By typing in triangle in the shape filter and ‘ca’ in the state filter, the user will see the table filtered by those two criteria:
+Now, let us assume that the user would like to see the data of UFOs that have a triangle shape and were spotted in California. By typing in triangle in the shape filter and ‘ca’ in the state filter, the user will see the table filtered by those two criteria:
 
   ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/screen_shot_triangle_california.png)
 
 
-The user can also apply all filters available. In the example below, the two results shown based on the criteria below: 
+The user can also apply all filters available. In the example below, the two results shown are based on the criteria listed below: 
 * date = 1/1/2010 
 * city = el cajon
 * state = ca
