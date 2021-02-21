@@ -4,9 +4,9 @@ Module 11: UFO Sightings with JavaScript
 
 ## Overview of the project
 
-In this week, the student helps Dana, a data journalist, to write a HTML page focused on UFOs. Dana wants to put several items in the same page; an image header with a title, an article, a table with information about UFOs that were seen and easy to use filters for the table.
+In this week, the student helped Dana, a data journalist, to write a HTML page focused on UFOs. Dana wants to put several items in the same page; an image header with a title, an article, a table with information about UFOs that were seen and easy to use filters for the table.
 
-The table shows the date, city, state, country, UFO shape, duration and comments. The user should be able to use the dynamic table and select one or more filters (except for the comments) to narrow down the data on the table. This can be extremely helpful to provide insights on specific cities, dates, forms etc. of the UFOs seen in the sky. 
+The table shows the date, city, state, country, UFO shape, duration and comments. The user should be able to use the dynamic table and select one or more filters (except for the duration or comments) to narrow down the data on the table. This can be extremely helpful to provide insights on specific cities, dates, forms etc. of the UFOs seen in the sky. 
 
 ## Results
 
@@ -15,13 +15,31 @@ The table shows the date, city, state, country, UFO shape, duration and comments
   ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/screen_shot_webpage.png)
 
 
-* The average temperature for December is only 4 F degrees lower than in June, demonstrating that even during the winter, the temperatures in Oahu are still warm enough for surfing and ice cream
+As shown above, the HTML page has a navigation bar on top, followed by a header with an image and title and an article right below it. The interactive part of the website is the filters on the left and the table at the bottom.
 
-* Even during December, Oahu experience warm temperatures, with a maximum temperature of 83 F and third quartile of 74; for June, the maximum was 85 F and the third quartile 77
+The user can search for specific data of the UFOs seen by applying the filters by date, city, state, country of UFO shape; there is a sample of the type of data that to be typed in for each one of the filter boxes. The person can use only one filter or a combination of the filters to select the data. In the example below, the user filters the search only by the triangle shape: 
 
-* The standard deviations are similar, 3.7 for December and 3.3 for June, so the group of numbers are similarly spread in both months 
+  ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/screen_shot_triangle.png)
 
-* Although December has lower temperatures due to the winter season, the largest frequencies on the histogram are within 70 F to 75 F, still good temperatures for surfing and for ice cream consumption   
+
+But now, let us assume that the user would like to see the data of UFOs that have a triangle shape and were spotted in California. By typing in triangle in the shape filter and ‘ca’ in the state filter, the user will see the table filtered by those two criteria:
+
+  ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/screen_shot_triangle_california.png)
+
+
+The user can also apply all filters available. In the example below, the two results shown based on the criteria below: 
+* date = 1/1/2010 
+* city = el cajon
+* state = ca
+* country = us 
+* shape = triangle
+
+
+  ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/screen_shot_triangle_allfilters.png)
+
+
+
+ 
 
 ## Summary
 
