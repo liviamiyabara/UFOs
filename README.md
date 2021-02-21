@@ -4,7 +4,7 @@ Module 11: UFO Sightings with JavaScript
 
 ## Overview of the project
 
-In this week, the student helped Dana, a data journalist, to write a HTML page focused on UFOs. Dana wants to put several items in the same page; an image header with a title, an article, a table with information about UFOs that were seen and easy to use filters for the table.
+In this week, the student helped Dana, a data journalist, to write a HTML page focused on UFOs. Dana wanted to include several items in the same page; an image header with a title, an article, a table with information about UFOs that were seen and easy to use filters for the table.
 
 The table shows the date, city, state, country, UFO shape, duration and comments. The user should be able to use the dynamic table and select one or more filters (except for the duration or comments) to narrow down the data on the table. This can be extremely helpful to provide insights on specific cities, dates, forms etc. of the UFOs seen in the sky. 
 
