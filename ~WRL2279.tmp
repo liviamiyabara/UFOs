@@ -4,15 +4,14 @@ Module 11: UFO Sightings with JavaScript
 
 ## Overview of the project
 
-In this week, the student helps Dana, a data journalist, to write a HTML page focused on UFOs. Dana wants to put several items in the same page; an image header with a title, an article, a table with information about UFOs that were seen and easy to use filters for the table.
+In this week, the student wants to open a new business, Surf n’Shake Shack, a store that provides surf boards and ice cream to locals in Hawaii. After the business plan was created, there is an investor interested, W. Avy, but he is concerned about how the weather can affect the sales of the shop. He asks the student to run analytics on the weather data of Oahu island in order to secure additional investors to the enterprise.
 
-The table shows the date, city, state, country, UFO shape, duration and comments. The user should be able to use the dynamic table and select one or more filters (except for the comments) to narrow down the data on the table. This can be extremely helpful to provide insights on specific cities, dates, forms etc. of the UFOs seen in the sky. 
+In this challenge, W. Avy asked to perform specific analysis for the months of June and December to determine if the surf and ice cream shop business is sustainable year-round.
 
 ## Results
 
-#### HTML page
-
-  ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/screen_shot_webpage.png)
+Website page
+  ![ScreenShot](https://github.com/liviamiyabara/surfs_up/blob/main/Resources/june_stats.png)
 
 
 * The average temperature for December is only 4 F degrees lower than in June, demonstrating that even during the winter, the temperatures in Oahu are still warm enough for surfing and ice cream
