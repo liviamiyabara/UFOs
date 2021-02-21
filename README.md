@@ -17,7 +17,7 @@ The table shows the date, city, state, country, UFO shape, duration and comments
 
 As shown above, the HTML page has a navigation bar on top, followed by a header with an image and title and an article right below it. The interactive part of the website is the filters on the left and the table at the bottom.
 
-The user can search for specific data of the UFOs seen by applying the filters by date, city, state, country of UFO shape; there is a sample of the type of data that to be typed in for each one of the filter boxes. The person can use only one filter or a combination of the filters to select the data. In the example below, the user filters the search only by the triangle shape: 
+The user can search for specific data of the UFOs seen by applying the filters by date, city, state, country and/or UFO shape; there is a sample of the type of data that to be typed in for each one of the filter boxes. The person can use only one filter or a combination of the filters to select the data. In the example below, the user filters the search only by the triangle shape: 
 
   ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/screen_shot_triangle.png)
 
@@ -35,15 +35,23 @@ The user can also apply all filters available. In the example below, the two res
 * shape = triangle
 
 
-  ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/screen_shot_triangle_allfilters.png)
+  ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/screen_shot_allfilters.png)
 
 
-
- 
 
 ## Summary
 
-In summary, based on the specific analysis of temperature for June and December, it seems that the surf and ice cream shop business is sustainable year-round, the temperature average temperature difference between summer and winter is only 4 F. 
+The dynamic table works well when the user wants to apply one of more filters to the search, but one of the limitations is that if the person is doing multiple searches, instead of having a button to clean up all the filters previously applied and start a new search, the user needs to manually remove each filter criteria. For example, if in the first search the person applied the filter for the shape to be ‘light’ and the state to be ‘ny’ and now the user would like to make a second search and only look for a specific date, the user would need to remove the criteria in the ‘shape’ and ‘state’ filters and then add the date, otherwise all the previous filters of the last search would be used again on top of the date selected. 
 
-An additional analysis to be performed is related to the precipitation. The temperatures are only one factor that is relevant to the shop, if there’s too much rain in the location, that can also impact sales. To perform the query, user can replace the ‘Measurement.tobs’ to ‘Measurement.prcp’. Below is the example for the June analysis:
+Another potential draw back that was enhanced in this code is related to case sensitivity. A common use case is that the user would type in the state in capital letters. The script was optimized and despite of the use of the lower or upper case in the filters of HTML page, all letters are converted to lower case to match the format of the data. Below is the snippet of the code, the function toLowerCase() was used:
 
+  ![ScreenShot]( https://github.com/liviamiyabara/UFOs/blob/main/static/images/lowercase.png)
+
+
+To improve the user experience in the HTML site, a couple of enhancements could be developed:
+
+* Creation of a button to clean up previous filters
+* In the case of a search with no results, instead of showing the blank table only with the headers, replace it by a message: “No results found”
+* Create a drop-down list for the selection of country, state and shape since there are not too many possible items in the directory 
+* For the ‘Enter date’ open a calendar when user clicks on the filter box to enable selection of a specific date based on the calendar view
+* Improve the HTML code to be more mobile responsive
